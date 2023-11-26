@@ -1,0 +1,4 @@
+curl http://localhost:8080/albums --include --header "Content-Type: application/json" --request "POST" --data '{"id": "4","gesch": 1,"name": "Betty Carter","alter": 33}'
+
+
+curl http://localhost:8080/albums--include--header"Content-Type: application/json" --request "POST" --data '{"id": "4","gesch": 1,"name": "Betty Carter","alter": 33}'
