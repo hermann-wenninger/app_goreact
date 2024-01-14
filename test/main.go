@@ -1,9 +1,10 @@
 package main
 
 import (
-    "bytes"
-    "fmt"
-    "os"
+	"bytes"
+	"fmt"
+	"os"
+	"io"
 )
 
 func main() {
@@ -30,4 +31,15 @@ func main() {
         fmt.Println(err)
         return
     }
+	x, errr := os.Open("teacher.sql")
+if errr != nil {
+    fmt.Println(errr)
+    return
+}
+b, err := io.ReadAll(x)
+if err != nil {
+    fmt.Println(err)
+    return
+}
+fmt.Println(b)
 }
