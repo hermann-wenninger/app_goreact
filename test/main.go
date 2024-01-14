@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"os"
 	"io"
+	"db"
+	"sql"
 )
 
 func main() {
@@ -42,4 +44,23 @@ if err != nil {
     return
 }
 fmt.Println(b)
+
+res, err := db.Exec(string(b))
+if err != nil {
+    fmt.Println(err)
+    return
+}
+fmt.Println(res)
+
+func createTeacher(firstname string, lastname string, db *sql.DB) (int64, error) {
+    res, err := db.Exec("INSERT INTO `teacher` (`create_time`, `firstname`, `lastname`) VALUES (NOW(), ?, ?)", firstname, lastname)
+    if err != nil {
+        return 0, err
+    }
+    id, err := res.LastInsertId()
+    if err != nil {
+        return 0, err
+    }
+    return id, nil
+}
 }
