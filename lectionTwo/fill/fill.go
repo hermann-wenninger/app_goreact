@@ -22,5 +22,8 @@ func PrintNum_1(){
 			time.Sleep(1 * time.Second)         
 			i++         
 			fmt.Println("two",i)  
-		} 
-}
+		} }
+		func Nummmer()int{     
+			i :=22242
+			return  i
+		}
