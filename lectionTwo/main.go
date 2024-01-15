@@ -8,4 +8,6 @@ import(
 func main(){
 	fill.Fill()
 	fmt.Println(xyz.Init)
+	 go fill.PrintNum_0()
+	 fill.PrintNum_1()
 }
