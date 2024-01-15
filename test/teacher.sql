@@ -5,4 +5,4 @@ CREATE TABLE `teacher` (
     `firstname` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
     `lastname` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
     PRIMARY KEY (`id`)
-) ENGINE=InnoDB;
+) ENGINE = InnoDB;
