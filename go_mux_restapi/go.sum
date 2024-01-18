@@ -1,0 +1,8 @@
+github.com/TomFern/go-mux-api v0.0.0-20210408215819-bbb41d97b831 h1:noIDtZlE7lvqB/8iIW3c090fW5EJdpiSMCPPaoNzss8=
+github.com/TomFern/go-mux-api v0.0.0-20210408215819-bbb41d97b831/go.mod h1:yX4EdxJy/+enOdK4i5UY7+Hc6fRX175p2I5Ikfj1GWk=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
+github.com/lib/pq v1.10.0/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
+github.com/lib/pq v1.10.9 h1:YXG7RB+JIjhP29X+OtkiDnYaXQwpS4JEWq7dtCCRUEw=
+github.com/lib/pq v1.10.9/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
